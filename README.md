@@ -1,30 +1,65 @@
-<div style="display: flex; align-items: center; justify-content: center;">
-  <img alt="Gemini Coder" src="./public/logo.svg" style="height: 50px;">
-  <h1 style="margin-left: 10px;">Gemini Coder</h1>
-</div>
+# Gemini Coder
+
+**Generate small apps with a single prompt. Powered by the Gemini API.**
 
 <p align="center">
-  Generate small apps with one prompt. Powered by the Gemini API.
+  <img alt="Gemini Coder" src="./public/logo.svg" style="height: 50px;">
+  <h1 style="margin-left: 10px;">Gemini Coder</h1>
 </p>
 
-Try it in https://huggingface.co/spaces/osanseviero/gemini-coder 
+<p align="center">
+  <a href="https://github.com/canstralian/geminiCoder/actions/workflows/ci.yml"><img src="https://github.com/canstralian/geminiCoder/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
+  <a href="https://github.com/canstralian/geminiCoder"><img src="https://img.shields.io/github/languages/top/canstralian/geminiCoder" alt="Top Language"></a>
+  <a href="https://github.com/canstralian/geminiCoder"><img src="https://img.shields.io/github/languages/count/canstralian/geminiCoder" alt="Languages Count"></a>
+  <a href="https://github.com/canstralian/geminiCoder"><img src="https://img.shields.io/github/stars/canstralian/geminiCoder" alt="Stars"></a>
+  <a href="https://github.com/canstralian/geminiCoder"><img src="https://img.shields.io/github/forks/canstralian/geminiCoder" alt="Forks"></a>
+  <a href="https://github.com/canstralian/geminiCoder"><img src="https://img.shields.io/github/issues/canstralian/geminiCoder" alt="Issues"></a>
+  <a href="https://github.com/canstralian/geminiCoder"><img src="https://img.shields.io/github/license/canstralian/geminiCoder" alt="License"></a>
+</p>
 
-This project is fully based on [llamacoder](https://github.com/Nutlope/llamacoder). Please follow [Nutlope](https://github.com/Nutlope) and give them a star.
+[Try it in Hugging Face](https://huggingface.co/spaces/canstralian/gemini-coder)
 
-## Tech stack
+This project is based on [llamacoder](https://github.com/Nutlope/llamacoder). Please give a star to [Nutlope](https://github.com/Nutlope) for their contribution.
 
-- [Gemini API](https://ai.google.dev/gemini-api/docs) to use Gemini 1.5 Pro, Gemini 1.5 Flash, and Gemini 2.0 Flash Experimental
-- [Sandpack](https://sandpack.codesandbox.io/) for the code sandbox
-- Next.js app router with Tailwind
+## Tech Stack
+
+- **Gemini API**: Powered by Gemini 1.5 Pro, Gemini 1.5 Flash, and Gemini 2.0 Flash Experimental models from Google AI. [Gemini API Documentation](https://ai.google.dev/gemini-api/docs)
+- **Sandpack**: For an interactive code sandbox environment. [Sandpack](https://sandpack.codesandbox.io/)
+- **Next.js**: App routing with React and server-side rendering.
+- **Tailwind CSS**: Utility-first CSS framework for styling.
 
 You can also experiment with Gemini in [Google AI Studio](https://aistudio.google.com/).
 
-## Cloning & running
+## How to Get Started
 
-1. Clone the repo: `git clone https://github.com/osanseviero/geminicoder`
-2. Create a `.env` file and add your [Google AI Studio API key](https://aistudio.google.com/app/apikey): `GOOGLE_AI_API_KEY=`
-3. Run `npm install` and `npm run dev` to install dependencies and run locally
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/canstralian/geminiCoder
+   ```
 
-**This is a personal project and not a Google official project**
+2. **Set up your Google AI API Key**:
+   - Create a `.env` file in the root of the project.
+   - Add your [Google AI Studio API key](https://aistudio.google.com/app/apikey) like this:
+     ```
+     GOOGLE_AI_API_KEY=your_api_key
+     ```
+
+3. **Install dependencies and run the app locally**:
+   ```bash
+   npm install
+   npm run dev
+   ```
+
+4. Open your browser and navigate to [http://localhost:3000](http://localhost:3000).
+
+## Contributing
+
+This is a personal project inspired by [llamacoder](https://github.com/Nutlope/llamacoder). If you’d like to contribute or report issues, please feel free to open a pull request or an issue on the [GitHub repository](https://github.com/canstralian/geminiCoder).
+
+## Support the Project
+
+If you like the project, consider supporting me with a cup of coffee ☕:
 
 <a href="https://www.buymeacoffee.com/sadejager"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=☕&slug=sadejager&button_colour=BD5FFF&font_colour=ffffff&font_family=Arial&outline_colour=000000&coffee_colour=FFDD00" /></a>
+
+---
