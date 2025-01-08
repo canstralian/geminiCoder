@@ -9,7 +9,7 @@
 
 Try it in https://huggingface.co/spaces/osanseviero/gemini-coder 
 
-This project is fully based on [llamacoder](https://github.com/Nutlope/llamacoder). Please follow [Nutlope](https://github.com/Nutlope) and give them a star..
+This project is fully based on [llamacoder](https://github.com/Nutlope/llamacoder). Please follow [Nutlope](https://github.com/Nutlope) and give them a star.
 
 ## Tech stack
 
@@ -26,3 +26,5 @@ You can also experiment with Gemini in [Google AI Studio](https://aistudio.googl
 3. Run `npm install` and `npm run dev` to install dependencies and run locally
 
 **This is a personal project and not a Google official project**
+
+<a href="https://www.buymeacoffee.com/sadejager"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=☕&slug=sadejager&button_colour=BD5FFF&font_colour=ffffff&font_family=Arial&outline_colour=000000&coffee_colour=FFDD00" /></a>
