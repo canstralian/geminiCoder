@@ -23,7 +23,7 @@
     "dedent": "^1.5.3",
     "eventsource-parser": "^1.1.2",
     "framer-motion": "^11.3.19",
-    "next": "14.2.5",
+    "next": "14.2.21",
     "react": "^18",
     "react-dom": "^18",
     "sonner": "^1.5.0",
